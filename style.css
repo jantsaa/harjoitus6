@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+article.page {
+    max-width: 90%;
+    margin: auto auto;
+}
+
+header {
+    padding: 1em;
+    background-color: #575757;
+    color: #F0EBEB;
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 0.187em;
+}
+
+nav, footer {
+    height: 1.875em;
+    background-color: #E49A2F;
+    color:  #F7F5EE;
+    text-align: center;
+    border: 1px solid black;
+}
+
+section {
+    background-color: #D8CCAF;
+    width: 100%;
+    overflow: hidden;
+}
+
+section.content_left{
+    width: 33.3%;
+    background-color: #F7F5EE;
+    border: 1px solid #AC9675;
+    margin: 3em;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    padding: 1.9em;
+    border: 0px solid black;
+    border-radius: 10px;
+}
+
+section.content_right{
+    width: 33.3%;
+    background-color: #F7F5EE;
+    border: 1px solid #AC9675;
+    margin: 3em;
+    display: inline-block;
+    overflow: hidden;
+    padding: 1.9em;
+    border: 0px solid black;
+    border-radius: 10px;
+}
+
+section.content_left h1, section.content_right h1{
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 2em;
+    color: #E49A2F;
+}
+
+
+section.content_left p, section.content_right p{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.30em;
+}
+
+#kuva {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    padding-top: 1em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color:#E49A2F;
+  }
